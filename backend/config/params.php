@@ -1,5 +1,6 @@
 <?php
 return [
+    'test'=>'111',
     'adminEmail' => 'admin@example.com',
     'adminAcronym' => 'RF',
     'adminTitle' => 'RageFrame',
