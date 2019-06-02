@@ -2,7 +2,7 @@
 return [
     'test'=>'111',
     'test2'=>'222222',
-    'adminEmail' => 'admin@example.com',
+    'adminEmail' => 'admin@example.com11',
     'adminAcronym' => 'RF',
     'adminTitle' => 'RageFrame',
 
