@@ -220,7 +220,7 @@ class Html extends BaseHtml
             'height' => $height,
         ]);
 
-        return self::a($image, $imgSrc, [
+        return parent::a($image, $imgSrc, [
             'data-fancybox' => 'gallery'
         ]);
     }
@@ -234,7 +234,7 @@ class Html extends BaseHtml
 
         if (Yii::$app->params['inAddon'] === false)
         {
-            return self::sysVerify($route[0]);
+            return self::sysVerify($route);
         }
 
         return self::addonVerify($route);
