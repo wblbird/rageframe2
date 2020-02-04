@@ -22,7 +22,7 @@ $this->params['breadcrumbs'][] = ['label' => $this->title, 'url' => ['index']];
 
 <div class="row">
     <div class="col-xs-12">
-        <div class="box">
+        <div class="box box-widget">
             <div class="box-header">
                 <h3 class="box-title"><?= $this->title; ?></h3>
             </div>
@@ -77,7 +77,7 @@ $this->params['breadcrumbs'][] = ['label' => $this->title, 'url' => ['index']];
  
 <div class="row">
  <div class="col-lg-12">
-     <div class="box">
+     <div class="box box-widget">
          <div class="box-header with-border">
              <h3 class="box-title">基本信息</h3>
          </div>
